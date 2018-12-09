@@ -1,0 +1,27 @@
+.navigation {
+  &__item {
+    margin-bottom: 8vh;
+
+    font-size: 2rem;
+    color: #fff;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    @include breakpoint(desktop) {
+      margin: 0 4vw 0 0;
+
+      font-size: 1.6rem;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

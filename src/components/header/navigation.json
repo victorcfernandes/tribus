@@ -1,0 +1,20 @@
+{
+  "navigation": [
+    {
+      "name": "Sobre",
+      "href": "#about"
+    },
+    {
+      "name": "Serviços",
+      "href": "#services"
+    },
+    {
+      "name": "Projetos",
+      "href": "#clients"
+    },
+    {
+      "name": "Contato",
+      "href": "#contact"
+    }
+  ]
+}

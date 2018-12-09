@@ -1,0 +1,45 @@
+///------------------------------------
+//    #SETTINGS
+//------------------------------------
+
+// Globaly available variables
+
+//-------------------------
+//    #Typography
+//    Global default settings
+//	  for typography
+//-------------------------
+
+//------FONT SIZES CALCULATION
+// DO NOT CHANGE BASE FONT SIZE, ITS EASIER FOR CALCULATION
+// CHANGE FONT-SIZE USING THIS FORMULA
+// A = 10  (font size we always use, just change resolution)
+// B = 768 (resolution we are looking at in the desing)
+// X = (A / B) * 100
+
+//------DIMENSIONS
+$baseFontSize: 10; // DO NOT CHANGE THIS
+
+html {
+  $fontSizePX: $baseFontSize + px;
+
+  overflow-x: hidden;
+  font-size: $fontSizePX;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+//------FONT FAMILY VARIBALE
+
+$fontDefault: Arial, Helvetica, Tahoma, sans-serif;
+
+//This is an example of how to set fonts
+$baseFont: "Montserrat", $fontDefault;
+
+//------GLOBAL FONT SETTINGS FOR HEADERS - must be here
+body {
+  font-size: 100%;
+  font-family: $baseFont;
+}

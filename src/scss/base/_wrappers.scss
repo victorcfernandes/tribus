@@ -1,0 +1,18 @@
+///------------------------------------
+//    #SETTINGS
+//------------------------------------
+// Globaly available variables
+//-------------------------
+//    #Wrapper
+//    Global default settings
+//	  for wrappers
+//-------------------------
+
+.container {
+  width: 100%;
+  padding-top: 130px;
+  @include breakpoint(desktop) {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+}
